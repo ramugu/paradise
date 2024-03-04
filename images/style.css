@@ -1,0 +1,74 @@
+body
+{
+    overflow-x: hidden;
+}
+.Menu
+{
+    padding: 10px;
+    margin-left: 50px;
+}
+.item{
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    scrollbar-color: brown transparent;
+}
+.item a
+{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding: 5px;
+
+}
+
+
+.item img:hover
+{
+  transform: scale(1.1);  
+}
+
+.cd:hover
+{
+    box-shadow: 0px 0px 8px rgb(141, 140, 140);
+
+}
+
+
+
+
+/* .card
+{
+    border: none;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    scrollbar-color: brown transparent;
+
+} */
+.foot{
+    background-color:#090c0b;
+}
+.lo ul li a{
+ line-height: 40px;
+ font-size: 15px;
+}
+.loo{
+    border-bottom: 1px solid white;
+}
+.foo a{
+    text-decoration:none ;
+    border-right: 1px solid white;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.foo{
+    padding-top: 20px;
+}
+.foo a:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+
